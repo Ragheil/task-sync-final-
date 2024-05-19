@@ -32,15 +32,21 @@ include("include/sidebar.php");
                                 
                                 <h4>Group Members:</h4>
                                 <ul>
-                                    <li><strong>Ragheil Atacador:</strong> Power Ranger Red </li>
-                                    <li><strong>Creslen karla Barcelo:</strong> Power Ranger Blue</li>
-                                    <li><strong>Divina Joy Boncales:</strong> Power Ranger Yellow</li>
-                                    <li><strong>Dagiel Rimando:</strong> Power Ranger Black</li>
-                                    <li><strong>Ricardo tagam:</strong> Power Ranger Pink</li>
+                                    <li><strong>Ragheil Atacador: </strong> Team Lead/ Full Stack Developer </li>
+                                    <li><strong>Divina Karla Barcelo:</strong> Documentation/Designer</li>
+                                    <li><strong>Creslen Joy Boncales:</strong> Documentation/Designer</li>
+                                    <li><strong>Ricardo Rimando Jr:</strong> System Engineer</li>
+                                    <li><strong>Gadiel Tagam:</strong> Front-End Developer</li>
                                 </ul>
-
-                                <p>Our group is passionate about collaboration and innovation. We believe in the power of NIGGAS and strive to push the boundaries of what we can achieve together.</p>
-
+<br>
+                                <p>Our group is passionate about collaboration and innovation. We believe in the power of collaboration, enthusiasm and strive to push the boundaries of what we can achieve together.</p>
+                          <br>
+                          
+                                <strong>CONTACT US AT</strong> 
+                                <p>niggersaurus@email.com</p>
+                                <p>09226739414</p>
+<br>
+<br>
                                 <div class="form-group">
                                     <div class="col-sm-3">
                                         <a href="index.php" class="btn btn-success-custom btn-xs">Return</a>
