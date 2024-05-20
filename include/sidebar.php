@@ -41,7 +41,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="task-info.php"><span style="color: #5bcad9; font-weight: bold;">TASK SYNC</span></a>
+      <a class="navbar-brand" href="task-info.php"><span style="color: #5bcad9; font-weight: bold;">TASKSYNC</span></a>
     </div>
 
     <?php

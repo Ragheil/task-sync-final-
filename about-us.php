@@ -28,7 +28,7 @@ include("include/sidebar.php");
 
                         <div class="row">
                             <div class="col-md-12">
-                                <p>Welcome, this is our group <strong>NIGGERSAURUS.</strong>We are a team of dedicated individuals committed to achieving excellence in our respective fields. Below is a brief introduction to each of our group members:</p>
+                                <p>Welcome, this is our group <strong>NIGGERSAURUS.</strong> We are a team of dedicated individuals committed to achieving excellence in our respective fields. Below is a brief introduction to each of our group members:</p>
                                 
                                 <h4>Group Members:</h4>
                                 <ul>

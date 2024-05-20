@@ -1,4 +1,4 @@
- <?php 
+<?php 
     if(isset($_SERVER['HTTPS'])){
         $protocol = ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != "off") ? "https" : "http";
     }
@@ -52,7 +52,7 @@ include("include/sidebar.php");
                     <button class="btn btn-primary btn-sm btn-menu" type="button" id="print"><i class="glyphicon glyphicon-print"></i> Print</button>
                 </div>
             </div>
-            <center ><h3>Daily Task Report</h3></center>
+            <center ><h3> Task Report</h3></center>
             <div class="gap"></div>
             <div class="gap"></div>
             <div class="table-responsive" id="printout">
@@ -131,8 +131,8 @@ include("include/sidebar.php");
             }
         </style>
         <div style="line-height:1em">
-            <h4 class="mb-0 text-center"><b>Employee Task Management System</b></h4>
-            <h4 class="mb-0 text-center"><b>Daily Task Report</b></h4>
+            <h4 class="mb-0 text-center"><b> Task Management System</b></h4>
+            <h4 class="mb-0 text-center"><b> Task Report</b></h4>
         </div>
         <hr>
     </div>
