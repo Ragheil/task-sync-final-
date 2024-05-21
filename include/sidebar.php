@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Task Management System</title>
+  <title>TASKSYNC MANAGEMENT</title>
   <link rel="icon" href="./assets/img/tasklogo.png" type="image/png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,6 @@
     function check_delete() {
       var check = confirm('Are you sure you want to delete this?');
         if (check) {
-         
             return true;
         } else {
             return false;

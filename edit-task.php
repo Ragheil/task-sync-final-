@@ -55,19 +55,19 @@ $row = $info->fetch(PDO::FETCH_ASSOC);
 			                  <div class="form-group">
 			                    <label class="control-label text-p-reset">Task Description</label>
 			                    <div class="">
-			                      <textarea name="task_description" id="task_description" <?php if($user_role != 1){ ?> disabled="true" <?php } ?>placeholder="Text Deskcription" class="form-control rounded-0" rows="5" cols="5"><?php echo $row['t_description']; ?></textarea>
+			                      <textarea name="task_description" id="task_description" <?php if($user_role != 1){ ?> readonly <?php } ?>placeholder="Text Deskcription" class="form-control rounded-0" rows="5" cols="5"><?php echo $row['t_description']; ?></textarea>
 			                    </div>
 			                  </div>
 			                  <div class="form-group">
 			                    <label class="control-label text-p-reset">Start Time</label>
 			                    <div class="">
-			                      <input type="text" name="t_start_time" id="t_start_time" <?php if($user_role != 1){ ?> disabled="true" <?php } ?> class="form-control rounded-0" value="<?php echo $row['t_start_time']; ?>">
+			                      <input type="text" name="t_start_time" id="t_start_time" <?php if($user_role != 1){ ?> readonly <?php } ?> class="form-control rounded-0" value="<?php echo $row['t_start_time']; ?>">
 			                    </div>
 			                  </div>
 			                  <div class="form-group">
 			                    <label class="control-label text-p-reset">End Time</label>
 			                    <div class="">
-			                      <input type="text" name="t_end_time" id="t_end_time" <?php if($user_role != 1){ ?> disabled="true" <?php } ?>class="form-control rounded-0" value="<?php echo $row['t_end_time']; ?>">
+			                      <input type="text" name="t_end_time" id="t_end_time" <?php if($user_role != 1){ ?> readonly <?php } ?>class="form-control rounded-0" value="<?php echo $row['t_end_time']; ?>">
 			                    </div>
 			                  </div>
 
@@ -78,7 +78,7 @@ $row = $info->fetch(PDO::FETCH_ASSOC);
 			                        $sql = "SELECT user_id, fullname FROM tbl_admin WHERE user_role = 2";
 			                        $info = $obj_admin->manage_all_info($sql);   
 			                      ?>
-			                      <select class="form-control rounded-0" name="assign_to" id="aassign_to" <?php if($user_role != 1){ ?> disabled="true" <?php } ?>>
+			                      <select class="form-control rounded-0" name="assign_to" id="aassign_to" <?php if($user_role != 1){ ?> readonly <?php } ?>>
 			                        <option value="">Select</option>
 
 			                        <?php while($rows = $info->fetch(PDO::FETCH_ASSOC)){ ?>

@@ -227,5 +227,5 @@ include("include/footer.php");
   // JavaScript to reload the page every 60 seconds
   setInterval(function(){
     location.reload();
-  }, 10000); // 10000 milliseconds = 10 seconds
-</script>
+  }, 20000); // 10000 milliseconds = 10 seconds
+</script> 
