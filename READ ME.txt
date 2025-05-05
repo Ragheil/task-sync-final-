@@ -2,9 +2,11 @@
 Username: admin
 Password: admin123
 
-staff username: kidor
-staff password: kidor
+staff1 username: kidor
+staff1 password: kidor
 
+staff2 username: kidor123
+staff2 password: 123
 
 NOTE: after creating new account for the employees, you'll get a random generated
 temporary password which is provided inside "Manage User" section of the application.
