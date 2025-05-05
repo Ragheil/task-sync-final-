@@ -7,10 +7,11 @@ class Admin_Class
 
 	public function __construct()
 	{ 
-        $host_name='localhost'; 
-		$user_name='root';
-		$password='';
-		$db_name='etms_db';
+        $host_name='localhost'; // sql211.infinityfree.com
+		$user_name='root';      // if0_38903886 
+		$password='';           // 763JF8cLOEP
+		$db_name='etms_db';     // if0_38903886_etms_db
+
 
 
 
